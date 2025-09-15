@@ -1,0 +1,6 @@
+Summary
+-> Reactive vs Traditional API
+-> Responsive
+    * reacting quickly
+    * streaming response
+    * cancel
