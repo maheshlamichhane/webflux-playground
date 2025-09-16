@@ -4,3 +4,89 @@ Summary
     * reacting quickly
     * streaming response
     * cancel
+
+Spring Data R2DBC(Reactive Relational Database Connectivity)
+-> JPA is a specification for traditional synchronous programming.
+-> R2DBC is a separate specification for reactive programming
+-> R2DBC != JPA
+
+R2DBC
+-> Prioritized
+    * Performance
+    * Scalability
+    * Streaming + Backpressure(I will demo with Postgres driver)
+-> It does not have features like
+    * @OneToMany
+    * @ManyToMany
+
+
+R2DBC Drivers/Config
+h1 -> r2dbc:h2:mem:///userdb
+postgres -> r2dbc:postgresql://localhost:5432/userdb
+mysql -> r2dbc:mysql://localhost:3306/userdb
+
+
+StepVerifier:
+-> StepVerifier.create()
+-> Next
+    * expectNext(...)
+    * expectNextCount()
+    * thenConsumeWhile()
+    * assertNext()
+-> Complete/Error
+    * expectComplete()
+    * expectError()
+-> verify
+    * verify
+
+Mutating Objects
+-> Reactive programming is functional style programming for IO
+-> Function programming prefers pure functions(with no side effects)!
+    * Perfer pure funcitons where it is possible but not blindly everywhere
+-> your table is mutuable! your entity object is mutable.
+    * it is OK to mutate.
+
+
+Pageable:
+-> To request for chunks of data from larger data set
+    * Page 1, Size 10
+    * Sort by Price ascending
+
+Complex Queries / Join
+-> Prefer SQL
+    * it is efficient
+    * No N+1 problem
+
+Repository / Database Client
+-> Repository(@Query)
+-> Database client
+
+
+Projection:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
