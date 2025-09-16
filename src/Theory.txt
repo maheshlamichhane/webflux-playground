@@ -91,6 +91,9 @@ Input Validation and Error handling:->
 WebFilter:
 -> webfilter -> controller -> service
 
+Functional Endpoints:
+
+
 
 
 
