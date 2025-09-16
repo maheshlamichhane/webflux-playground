@@ -66,6 +66,29 @@ Projection:
 
 
 
+Spring Data JPA VS Spring Data R2DBC:
+->
+
+
+Reactive Principle:
+i. Responsive -> The ability of the system to react / respond quickly.
+ii. Resilent -> The ability of the system to stay responsive even in case of failures.
+iii. Elastic -> The ability of the system to stay responsive even under varying workload/
+system resources.
+iv. Message Driven -> The ability of the systems to communicate using messages in a non-blocking
+manner by applying back pressure if necessary.
+
+
+Body Vs BodyValue
+bodyValue -> Actual raw object not publisher type
+body -> publisher type Mono<CustomerDto> mono
+body(mono,CustomerDto.class)
+
+
+Input Validation and Error handling:->
+
+
+
 
 
 

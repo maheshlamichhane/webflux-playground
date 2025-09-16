@@ -1,6 +1,6 @@
-package com.vinsguru.webflux_palyground.sec02.repository;
+package com.vinsguru.webflux_playground.sec02.repository;
 
-import com.vinsguru.webflux_palyground.sec02.entity.Product;
+import com.vinsguru.webflux_playground.sec02.entity.Product;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.repository.reactive.ReactiveCrudRepository;
 import reactor.core.publisher.Flux;

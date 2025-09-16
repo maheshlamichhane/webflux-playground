@@ -1,4 +1,4 @@
-package com.vinsguru.webflux_palyground.sec02;
+package com.vinsguru.webflux_playground.sec02;
 
 import org.springframework.boot.test.context.SpringBootTest;
 

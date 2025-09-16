@@ -1,8 +1,8 @@
-package com.vinsguru.webflux_palyground.sec02.repository;
+package com.vinsguru.webflux_playground.sec02.repository;
 
-import com.vinsguru.webflux_palyground.sec02.dto.OrderDetails;
-import com.vinsguru.webflux_palyground.sec02.entity.CustomerOrder;
-import com.vinsguru.webflux_palyground.sec02.entity.Product;
+import com.vinsguru.webflux_playground.sec02.dto.OrderDetails;
+import com.vinsguru.webflux_playground.sec02.entity.CustomerOrder;
+import com.vinsguru.webflux_playground.sec02.entity.Product;
 import org.springframework.data.r2dbc.repository.Query;
 import org.springframework.data.repository.reactive.ReactiveCrudRepository;
 import org.springframework.stereotype.Repository;

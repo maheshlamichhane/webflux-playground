@@ -1,4 +1,4 @@
-package com.vinsguru.webflux_palyground.sec01;
+package com.vinsguru.webflux_playground.sec01;
 
 public record Product(Integer id,String description,Integer price) {
 }

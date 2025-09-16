@@ -1,6 +1,6 @@
-package com.vinsguru.webflux_palyground.sec02;
+package com.vinsguru.webflux_playground.sec02;
 
-import com.vinsguru.webflux_palyground.sec02.repository.CustomerOrderRepository;
+import com.vinsguru.webflux_playground.sec02.repository.CustomerOrderRepository;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;

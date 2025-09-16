@@ -1,4 +1,4 @@
-package com.vinsguru.webflux_palyground.sec01;
+package com.vinsguru.webflux_playground.sec01;
 
 
 import org.slf4j.Logger;

@@ -1,4 +1,4 @@
-package com.vinsguru.webflux_palyground;
+package com.vinsguru.webflux_playground;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

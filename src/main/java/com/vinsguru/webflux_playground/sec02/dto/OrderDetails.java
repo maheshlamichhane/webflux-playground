@@ -1,4 +1,4 @@
-package com.vinsguru.webflux_palyground.sec02.dto;
+package com.vinsguru.webflux_playground.sec02.dto;
 
 import java.time.Instant;
 import java.util.UUID;

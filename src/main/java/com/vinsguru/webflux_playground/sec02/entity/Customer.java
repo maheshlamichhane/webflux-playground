@@ -1,4 +1,4 @@
-package com.vinsguru.webflux_palyground.sec02.entity;
+package com.vinsguru.webflux_playground.sec02.entity;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Column;
