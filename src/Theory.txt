@@ -93,6 +93,14 @@ WebFilter:
 
 Functional Endpoints:
 
+WebClient Non-Blocking HTTP Client:
+-> Reactor based fluent API for making HTTP requests.
+    * wrapper around reactor-netty
+-> Non-blocking
+-> Immutable
+-> Thread safe
+
+
 
 
 
