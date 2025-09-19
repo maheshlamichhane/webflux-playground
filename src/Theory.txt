@@ -101,6 +101,15 @@ WebClient Non-Blocking HTTP Client:
 -> Thread safe
 
 Communication Patterns:
+Server Sent events
+Performance optimization
+-> gzip for response
+-> connection pooling
+-> HTTP2
+
+Note:-> Http helps us to use the single http request to send the multiple http request.
+while http1 uses multiple http tcp connection to handle tcp connection.
+server.http2.enabled=true
 
 
 
